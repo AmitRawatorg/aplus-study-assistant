@@ -1,0 +1,17 @@
+[project]
+name = "repl-nix-workspace"
+version = "0.1.0"
+description = "Add your description here"
+requires-python = ">=3.13"
+dependencies = [
+    "faiss-cpu>=1.15.1",
+    "google-generativeai>=0.8.6",
+    "langchain>=1.4.1",
+    "langchain-community>=0.4.2",
+    "langchain-google-genai>=4.4.0",
+    "langchain-text-splitters>=1.1.2",
+    "pdfplumber>=0.11.10",
+    "python-dotenv>=1.2.3",
+    "streamlit>=1.64.0",
+    "streamlit-authenticator>=0.4.2",
+]
